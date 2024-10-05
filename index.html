@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=ai.php">
+    <title>SONE AI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide scrollbars */
+        }
+        iframe {
+            width: 100vw;  /* Full width */
+            height: 100vh; /* Full height */
+            border: none; /* Remove border */
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="ai.php">link to the AI page</a>.</p>
+    <iframe src="ai.php" title="SONE AI"></iframe>
 </body>
 </html>
